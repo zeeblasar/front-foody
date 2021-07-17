@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+
+html,body { height: 100%;}
+
+body {
+    background: linear-gradient(to top, #0F70D0, #0EB9E3);
+    color: #000000;
+    font-family: sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
