@@ -26,6 +26,7 @@ body {
     height: 340px;
     display: block;
     padding: 20px;
+    border-radius: 2%;
 }
 
 .form{
@@ -48,7 +49,7 @@ body {
     border-bottom: 1px solid #0F70D0;
 }
 
-.form input[type="submit"]{
+.form .submit{
     padding:.3rem;
     width:40%;
     margin-top: 10px;

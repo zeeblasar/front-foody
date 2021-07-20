@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 //import ProductList from "./components/products/list/product-list";
 import Login from "./components/login/login";
+import {BrowserRouter, BrowserRouter as Router} from "react-router-dom";
+import Routes  from "./routes/routes";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+      <BrowserRouter>
+          <Routes />
+      </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
